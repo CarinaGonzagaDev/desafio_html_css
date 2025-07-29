@@ -6,83 +6,8 @@
 	box-sizing: border-box;
 }
 
-html, body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	overflow-x: hidden;
-}
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-body {
-	line-height: 1;
-}
-
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 /* Meu código */
 /* Tags */
-
-footer {
-    background-color: #1b357e;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: block;
-    align-items: center;
-    padding: 20px;
-    height: 70px;
-}
-
-/* Minhas Classes */
-/* Classes Header */
-
 header {
 	display: flex;
 	align-items: center;
@@ -90,6 +15,20 @@ header {
 	justify-content: space-between
 }
 
+footer {
+	display: flex;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #1b357e;
+    color: white;
+    padding: 20px;
+}
+
+/* Minhas Classes */
+/* Classes Header */
 .lista-cabecalho {
 	display: flex;
 	gap: 30px;
@@ -98,10 +37,6 @@ header {
 	margin-left: 0 auto;
 	margin-right: 0 auto;
 	font-size: 20px;
-}
-.logo-container {
-	display: flex;
-	align-items: center;
 }
 
 .logo-cabecalho {
@@ -115,60 +50,43 @@ header {
 	justify-content: center;
 }
 
+.lista-cabecalho {
+	list-style-type: none;
+}
+
+.link-menu {
+	text-decoration: none;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+}
 
 /* Classes Footer */
-footer {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.redes-sociais {
-	display: flex;
-	align-items: center;
+
+.redesococial__ {
+	
+} 
+
+.redesococial__img {
+
 }
 
-.redes-sociais {
-	font-size: 20px;
-}
-.imagens-socias {
-	display: flex;
-}
-
-
-.redes-sociais a img {
-    width: 40px;
-    transition: transform 0.2s;
+.redesococial__img__link {
 	
 }
-.redes-sociais a img:hover {
-    transform: scale(1.1);
+
+.redesococial__img__fordrodape {
+
 }
 
-.ford-rodape {
-display: flex;
-justify-content: flex-end;
-}
+.ford__rodape {
 
-.container-ford-rodape {
-	display: flex;
-	align-items: flex-end;
 }
-
 /* Main Index */
-main {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-.img-carro-index img {
-	width: 100%;
-	height: auto;
-	display: block;
-}
 
-.paragrafo-main {
-	text-align: center;
-}
+
 /* Main Lancamentos */
 
 /* Main Contatos */
