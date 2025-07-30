@@ -1,31 +1,4 @@
 
-/* Meu código */
-
-/* Header */
-header {
-	display: flex;
-	align-items: center;
-	padding: 10px 30px;
-}
-
-/* Classes Header */
-
-
-
-/* Footer */
-footer {
-	display: flex;
-	align-items: center;
-    background-color: #1b357e;
-    color: white;
-    padding: 20px 40px;
-	width: 100%;
-	bottom: 0;
-	left: 0;
-}
-
-
-
 /* Classes Footer */
 
 /* Main Index */
