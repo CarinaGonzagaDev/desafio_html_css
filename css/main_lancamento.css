@@ -1,9 +1,6 @@
 /* corpo do lançamento */
 /* classes do corpo */
-.modelos-carros {
-    display: flex;
-    justify-content: center;
-}
+
 .cabine-simples,
 .xls-diesel,
 .storm-diesel {
