@@ -1,0 +1,17 @@
+/* corpo do lançamento */
+/* classes do corpo */
+.modelos-carros {
+    display: flex;
+    justify-content: center;
+}
+.cabine-simples,
+.xls-diesel,
+.storm-diesel {
+    margin: 10px;
+    flex: 1 1 300px;
+    max-width: 350px;
+    min-width: 250px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
