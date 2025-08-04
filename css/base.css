@@ -58,6 +58,7 @@ footer{
 .logo-footer img {
    height: 30px;
    transition: transform 0.3s ease;
+   cursor: pointer;
 }
 .redesSociais img:hover{
    transform: scale(1.1);
