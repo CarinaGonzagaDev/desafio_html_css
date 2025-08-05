@@ -38,6 +38,10 @@ main{
    padding: 10px 10px;
    text-align: center;
 }
+/* Classes do corpo */
+.main-informacao {
+   font-size: 20px;
+}
 /* pés */
 footer{
    display: flex;
@@ -67,4 +71,7 @@ footer{
    margin: 0;
    font-size: 14px;
    text-align: center;
+}
+.redesSociais-paragrafo {
+   font-size: 40px;
 }
