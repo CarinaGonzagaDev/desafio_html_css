@@ -1,3 +1,26 @@
+/* corpo */
+main button[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 200px;
+    background-color: #1b3571;
+    color: white;
+    border: outset;
+    border-color: #090F15;
+    padding: 12px;
+    margin: 10px auto 0;
+    cursor: pointer;
+}
+main button[type="submit"] {
+    transition: 0.2s ease-in-out;
+}
+main button[type="submit"]:active {
+    border: inset;
+    background-color: #1700F4;
+    transform: translateY(-2px) 
+}
 /* Classes do corpo do lançamento */
 .texto-promocional {
     flex: 0 0 300px;
@@ -50,4 +73,27 @@
     position: relative;
     flex-shrink: 0;
     cursor: pointer;
+}
+.veiculo-informacao img {
+    width: 20px;
+    margin-top: auto;
+    vertical-align: bottom;
+}
+.texto-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.texto-container h5 {
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    color: #1351d8;
+}
+.texto-container p {
+    margin: 0;
+    font-size: 11px;
+    text-align: left;
+    color: #000;
 }
