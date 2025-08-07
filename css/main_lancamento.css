@@ -44,7 +44,7 @@ main button[type="submit"]:active {
     border: none;
 }
 /* tabela do lançamento (Classes) */
-.tabela-carros {
+.tabela-carro {
     display: flex;
     justify-content: center;
     gap: 30px;    

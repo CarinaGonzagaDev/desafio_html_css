@@ -1,0 +1,88 @@
+.contatoPagina{
+    display: flex;
+    max-width: 900px;
+    margin: 30px auto;
+    gap: 40px;
+    align-items: center;
+    padding: 0 20px;
+}
+.contato-imagem{
+    flex: 1;
+    min-width: 0;
+}
+.contato-imagem img{
+    width: 100%;
+    height: auto;
+}
+.formularioContainer{
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.formulario h3{
+    color: black;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+.inputGrupo{
+    position: relative;
+}
+.inputGrupo input,
+.inputGrupo select,
+.inputGrupo textarea {
+    width: 100%;
+    padding: 7px 15px;
+    gap: 3px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    background-color: #f9f9f9;
+    transition: all 0.3 ease;
+}
+.submitbotao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #1b3571;
+    color: white;
+    border: outset;
+    border-color: #090F15;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.submitbotao {
+    transition: 0.2s ease-in-out;
+}
+.submitbotao:active {
+    border: inset;
+    background-color: #1700F4;
+    transform: translateY(-2px) 
+}
+main button [type="submit"]{
+    display: flex;
+    align-items: end;
+ }
+ .inputGrupo input:focus,
+ .inputGrupo select:focus,
+ .inputGrupo textarea:focus {
+    border-color: #00274C;
+    outline: none; 
+    background-color: #fff;
+    box-shadow: 0 0 0 2px rgb(0, 39, 76, 0.1);
+ }
+ .inputGrupo select {
+    appearance: none;
+    color: #555;
+ }
+ .inputGrupo textarea {
+    resize: vertical;
+    max-height: 30px;
+ }
