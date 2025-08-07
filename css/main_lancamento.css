@@ -47,7 +47,8 @@ main button[type="submit"]:active {
 .tabela-carro {
     display: flex;
     justify-content: center;
-    gap: 30px;    
+    gap: 20px;
+    padding: 20px;    
 }
 .veiculo-card {
     width: 250px;

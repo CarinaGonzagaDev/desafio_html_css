@@ -33,14 +33,10 @@ header nav a:hover{
    color: #003478;
 }
 /* corpo */
-main{
+main {
    flex-grow: 1;
    padding: 10px 10px;
    text-align: center;
-}
-/* Classes do corpo */
-.main-informacao {
-   font-size: 20px;
 }
 /* pés */
 footer{
@@ -74,4 +70,36 @@ footer{
 }
 .redesSociais-paragrafo {
    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+   header {
+      flex-direction: column;
+      padding: 10px 10px;
+   }
+
+   header nav ul{
+      gap: 15px;
+      margin-top: 15px;
+   }
+
+   footer {
+       flex-direction: row;
+       gap: 15px;
+       padding: 20px;
+       text-align: center;
+   }
+   .redesSociais p {
+      display: none;
+   }
+   .redesSociais img,
+   .logo-footer img {
+      height: 25px;
+   }
+   .direitosAutorais p {
+      font-size: 8px;
+      line-height: 1.4;
+      max-width: 88%;
+      margin: 0 auto;
+      }
 }
